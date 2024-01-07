@@ -1,0 +1,16 @@
+// init react project:
+
+create-react-app . --template typescript
+
+npm i react-router-dom @types/react-router-dom
+npm i react-hook-form
+npm i axios
+npm i notyf
+
+
+
+
+
+
+
+

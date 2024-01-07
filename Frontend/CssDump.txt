@@ -1,0 +1,49 @@
+============CSS FOR GENERIC CARD==============
+.TripCard {
+  width: 80%;
+  height: 180px;
+  text-align: left;
+  border: solid;
+  border-radius: 20px;
+  margin: 20px;
+  padding: 20px;
+  background-image: linear-gradient(45deg, orange, red);
+}
+
+
+
+
+
+
+
+============CSS FOR FORM======================
+
+.Insert {
+  display: grid;
+  justify-content: center;
+}
+
+.Insert > form {
+  border: 2px solid;
+  width: 500px;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 10px 10px 10px;
+  color: black;
+  align-self: center;
+  text-align: left;
+}
+
+.Insert select,
+.Insert input,
+.Insert button {
+  width: 100%;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+  font-size: x-large;
+}
+
+.Desc {
+  height: 200px;
+}

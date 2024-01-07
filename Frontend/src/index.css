@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+
+
+.line-clamp-4 {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 4;
+  max-height: 109px;
+  line-height: 1.26;
+}
+html, body, #root {
+    height: 100%;
+    text-align: center;
+    font-size: x-large;
+    background-image: radial-gradient(circle, #191c20, #072f51, #004086, #004fbc, #2659f0);
+    color: white;
+}
+
+a {
+    color: blue;
+}
+
